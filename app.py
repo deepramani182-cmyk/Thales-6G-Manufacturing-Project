@@ -10,7 +10,7 @@ st.markdown("### Unified Mentor Internship Project - Thales Group Analysis")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('/content/Thales_Group_Manufacturing_Processed.csv')
+    return pd.read_csv('Thales_Group_Manufacturing_Processed.csv')
 
 df = load_data()
 
